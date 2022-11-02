@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Question</title>
+
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h3{
+            padding-left: 100px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+       body{
+        padding: 30px;
+       }
+
+       img{
+        height: 250px;
+        width: 500px;
+       }
+
+       table{
+        width: 250px;
+       }
+    </style>
+</head>
+<body>
+    <h1>HTML Interview Question</h1>
+    <br>
+    <br>
+    <h2>Write a code to insert an image</h2>
+    <img src="./img/pexels-pixabay-36717.jpg" alt="image">
+    <br>
+    <h2>Create a form contain input fields like name age email and contact</h2>
+    <h3>Form</h3>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="fname" id="" placeholder="enter your name" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="" placeholder="enter your age" required>
+        <br><br>
+        <label for="email">Email Id:</label>
+        <input type="email" name="email" id="" placeholder="enter your email" required>
+        <br><br>
+        <label for="tel">Contact No:</label>
+        <input type="tel" name="contact" id="" placeholder="enter your contact no" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h2>Create a table and explain how to acheive colspan</h2>
+    <table border="1">
+        <thead>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arun</td>
+                <td>Kumar</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>Kumar</td>
+                <td>38</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2>Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two</h2>
+    <h4>Technology</h4>
+    <input type="checkbox" name="technology" id="">HTML
+    <br>
+    <input type="checkbox" name="technology" id="">CSS
+    <br>
+    <input type="checkbox" name="technology" id="">React
+    <br>
+    <input type="checkbox" name="technology" id="">Node
+    <br><br>
+    <h4>Course</h4>
+    <input type="radio" name="cource" id="">MERN
+    <br>
+    <input type="radio" name="cource" id="">MEAN
+    <p>Checkboxes and radio buttons are elements for making selections. Checkboxes allow the user to choose items from a fixed number of alternatives, while radio buttons allow the user to choose exactly one item from a list of several predefined alternatives.</p>
+
+</body>
+</html>
